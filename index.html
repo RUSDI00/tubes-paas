@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="en">
+<script type='text/javascript' src='https://cdn.prinsh.com/NathanPrinsley-effect/daun-berguguran.js'></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .rainbow-text {
+            font-size: 36px;
+            font-weight: bold;
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            background-size: 300% 100%; /* Ukuran latar belakang lebih besar untuk efek bergerak */
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: rainbow 5s linear infinite; /* Animasi dengan durasi 5 detik */
+        }
+
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; } /* Awal posisi latar belakang */
+            100% { background-position: 100% 50%; } /* Akhir posisi latar belakang */
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .link {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 25px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .link:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="rainbow-text">Tugas Pendahuluan Modul 11</div>
+    <p>Pilih tugas untuk dilihat:</p>
+    <div class="links">
+        <a href="tpmod11b(wajib).jsp" class="link">Ini Tugas B yang wajib</a>
+        <a href="tpmod11c(opsional).jsp" class="link">Ini Tugas C yang opsional</a>
+    </div>
+</body>
+</html>
+
+
+
